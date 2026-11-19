@@ -1,0 +1,7 @@
+layout splits
+cd ~
+launch --var role=work --title 'ARCH / WORK' bash --rcfile /home/lipton404/.config/kitty/gruvbox-desktop/work.bashrc -i
+launch --location=vsplit --bias=43 --var role=work2 --title 'WORK / 2' --env GRUVBOX_GREETING_DONE=1 bash --rcfile /home/lipton404/.config/kitty/gruvbox-desktop/work.bashrc -i
+launch --location=hsplit --bias=45 --title MUSIC python3 /home/lipton404/.config/kitty/gruvbox-desktop/panel.py music
+launch --spacing padding=0 --location=vsplit --bias=34 --var role=robot --title ROBOT python3 /home/lipton404/.config/kitty/gruvbox-desktop/robot_eyes.py
+focus_matching_window var:role=work

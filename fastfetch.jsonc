@@ -1,0 +1,19 @@
+{
+  "logo": {"source": "arch", "color": {"1": "#7ee787", "2": "#a7f3a0"}, "padding": {"top": 1, "right": 3}},
+  "display": {"separator": "  ·  ", "color": {"keys": "#7ee787", "title": "#a7f3a0"}},
+  "modules": [
+    "title", "separator",
+    {"type": "os", "key": "OS"},
+    {"type": "host", "key": "HOST"},
+    {"type": "kernel", "key": "KERNEL"},
+    {"type": "uptime", "key": "UPTIME"},
+    {"type": "shell", "key": "SHELL"},
+    {"type": "de", "key": "DESKTOP"},
+    {"type": "cpu", "key": "CPU", "format": "{name}"},
+    {"type": "gpu", "key": "GPU", "format": "{name}"},
+    {"type": "memory", "key": "RAM"},
+    {"type": "disk", "key": "DISK", "folders": "/"},
+    {"type": "battery", "key": "BATTERY"},
+    "break", "colors"
+  ]
+}
