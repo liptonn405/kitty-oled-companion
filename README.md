@@ -1,4 +1,6 @@
 # Kitty OLED Companion
+<img width="388" height="402" alt="image" src="https://github.com/user-attachments/assets/62728af4-e900-4c6f-8d5b-0038c879d2f1" />
+
 
 Рабочее пространство для эмулятора терминала Kitty с анимированным компаньоном, информационной панелью и оформлением в стиле Gruvbox.
 
